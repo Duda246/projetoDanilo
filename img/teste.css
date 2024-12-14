@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.site-title {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.site-title span {
+  color: #f56a79;
+}
+
+.categories {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.categories h2 {
+  color: #f56a79;
+  margin-bottom: 10px;
+}
+
+.categories ul {
+  list-style: none;
+  padding: 0;
+}
+
+.categories li {
+  margin: 10px 0;
+}
+
+.categories a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.categories a:hover {
+  color: #f56a79;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.search-bar {
+  flex: 1;
+  max-width: 300px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.social-icons a {
+  margin: 0 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.auth-links a {
+  margin-left: 15px;
+  color: #f56a79;
+  font-weight: bold;
+}
+
+.banner {
+  position: relative;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content {
+  text-align: center;
+  color: #fff;
+}
+
+.banner-content h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.banner-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.shop-now {
+  padding: 10px 20px;
+  background-color: #f56a79;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.shop-now:hover {
+  background-color: #e0455d;
+}
